@@ -59,24 +59,3 @@ for imagePath in list_images(args["dataset"]):
     imPaths = np.array(imPaths, dtype = "unicode")
     np.save(args["annotations"], annotations)
     np.save(args["images"], imPaths)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    1
